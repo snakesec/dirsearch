@@ -11,6 +11,6 @@ else
   exit 1
 fi
 
-cp -Rf andraxbin/* /opt/ANDRAX/bin
+ln -s /opt/ANDRAX/pipx/venvs/dirsearch/bin/dirsearch /opt/ANDRAX/bin/dirsearch
 
 chown -R andrax:andrax /opt/ANDRAX/
